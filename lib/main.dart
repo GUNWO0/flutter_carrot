@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_carrot/screens/main_screens.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,16 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Placeholder(),
+      home: MainScreens(),
     );
   }
 }
